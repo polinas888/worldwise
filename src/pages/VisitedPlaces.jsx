@@ -1,10 +1,12 @@
-import VisitedPlacesNav from "../components/VisitedPlacesNav";
+import SideBar from "../components/SideBar";
+import Map from "../components/Map";
+import styles from "./VisitedPlaces.module.css";
 
 function VisitedPlaces() {
   return (
-    <div>
-      <VisitedPlacesNav />
-      Visited places
+    <div className={styles.app}>
+      <SideBar />
+      <Map />
     </div>
   );
 }
