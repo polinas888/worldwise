@@ -10,8 +10,7 @@ import { useEffect, useState } from "react";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
-
-const BASE_URL = "http://localhost:8000";
+import { BASE_URL } from "./EnvironmentVariables";
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -24,8 +23,6 @@ function App() {
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         setCities(data);
-      } catch (error) {
-        throw new Error(error);
       } finally {
         setIsLoading(false);
       }
