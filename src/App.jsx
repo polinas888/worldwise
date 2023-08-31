@@ -6,11 +6,10 @@ import Homepage from "./pages/HomePage";
 import VisitedPlaces from "./pages/VisitedPlaces";
 import Login from "./pages/Login";
 import CityList from "./components/CityList";
-import { useEffect, useState } from "react";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
-import { CityContextProvider } from "./contexts/CitiesContext";
+import { CityContextProvider } from "./slices/citiesSlice/CitiesContext";
 
 function App() {
   return (

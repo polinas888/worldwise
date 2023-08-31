@@ -25,40 +25,28 @@
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Ha'il",
       "country": "Saudi Arabia",
-      "countryEmoji": "🇸🇦",
-      "date": "2023-08-26T08:09:20.233Z",
-      "notes": "test",
-      "position": [
-        "28.459033019728068",
-        "40.09780710538114"
-      ],
-      "id": 98443200
+      "emoji": "🇸🇦",
+      "date": "2023-08-31T12:06:55.436Z",
+      "notes": "",
+      "position": {
+        "lat": 28.05509250394517,
+        "lng": 40.89111328125001
+      },
+      "id": 73930388
     },
     {
-      "cityName": "Gottingen",
-      "country": "Germany",
-      "countryEmoji": "🇩🇪",
-      "date": "2023-08-27T06:23:52.451Z",
+      "cityName": "Al Kharjah",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2023-08-31T12:07:16.857Z",
       "notes": "",
-      "position": [
-        "51.55140038390134",
-        "10.019531250000002"
-      ],
-      "id": 98443201
+      "position": {
+        "lat": 25.40633863430687,
+        "lng": 32.25585937500001
+      },
+      "id": 73930389
     }
   ]
 }
