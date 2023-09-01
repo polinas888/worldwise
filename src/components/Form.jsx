@@ -1,4 +1,4 @@
-// "https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=0&longitude=0"
+const REACT_APP_FETCH_CITY_URL = import.meta.env.VITE_REACT_APP_FETCH_CITY_URL;
 
 import { useEffect, useState } from "react";
 
@@ -6,7 +6,6 @@ import styles from "./Form.module.css";
 import Button from "./Button";
 import BackButton from "./BackButton";
 import { useGeolocationPosition } from "../hooks/useGeolocationPosition";
-import { FETCH_CITY_URL } from "../EnvironmentVariables";
 import Message from "../components/Message";
 import Spinner from "../components/Spinner";
 import "react-datepicker/dist/react-datepicker.css";
@@ -41,7 +40,7 @@ function Form() {
         setIsLoadingGeolocation(true);
         setCityError(null);
         const res = await fetch(
-          `${FETCH_CITY_URL}?latitude=${lat}&longitude=${lng}`
+          `${REACT_APP_FETCH_CITY_URL}?latitude=${lat}&longitude=${lng}`
         );
         const data = await res.json();
         if (!data.countryCode)
@@ -62,7 +61,6 @@ function Form() {
 
   async function handleOnSubmit(e) {
     e.preventDefault();
-    console.log("Form submitted!");
     const newCity = {
       cityName,
       country,

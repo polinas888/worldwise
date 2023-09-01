@@ -1,9 +1,9 @@
-import { BASE_URL } from "../../EnvironmentVariables";
+const REACT_APP_BASE_URL = import.meta.env.VITE_REACT_APP_BASE_URL;
 
 export async function getCurrentCity(id, dispatch) {
   dispatch({ type: "loading" });
   try {
-    const res = await fetch(`${BASE_URL}/cities/${id}`);
+    const res = await fetch(`${REACT_APP_BASE_URL}/cities/${id}`);
     const data = await res.json();
     dispatch({ type: "city/loaded", payload: data });
   } catch (error) {
@@ -14,7 +14,7 @@ export async function getCurrentCity(id, dispatch) {
 export async function fetchCities(dispatch) {
   dispatch({ type: "loading" });
   try {
-    const res = await fetch(`${BASE_URL}/cities`);
+    const res = await fetch(`${REACT_APP_BASE_URL}/cities`);
     const data = await res.json();
     dispatch({ type: "cities/loaded", payload: data });
   } catch (error) {
@@ -34,7 +34,7 @@ export async function createCity(newCity, dispatch, cities) {
       return;
     }
 
-    const response = await fetch(`${BASE_URL}/cities`, {
+    const response = await fetch(`${REACT_APP_BASE_URL}/cities`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -47,6 +47,7 @@ export async function createCity(newCity, dispatch, cities) {
       throw new Error("Failed to create city.");
     }
     dispatch({ type: "city/created", payload: newCity });
+    fetchCities(dispatch);
     console.log(getCurrentCity);
   } catch (error) {
     dispatch({ type: "rejected", payload: error.message });
@@ -56,7 +57,7 @@ export async function createCity(newCity, dispatch, cities) {
 export async function deleteCity(id, dispatch) {
   dispatch({ type: "loading" });
   try {
-    const response = await fetch(`${BASE_URL}/cities/${id}`, {
+    const response = await fetch(`${REACT_APP_BASE_URL}/cities/${id}`, {
       method: "DELETE",
     });
 
