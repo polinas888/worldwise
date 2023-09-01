@@ -25,40 +25,52 @@
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Faro",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 739303851
-    },
-    {
-      "cityName": "Barselona",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "cityName": "Ha'il",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2023-08-31T12:06:55.436Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": 28.05509250394517,
+        "lng": 40.89111328125001
       },
-      "id": 178067511
+      "id": 73930388
+    },
+    {
+      "cityName": "Sakakah",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2023-09-01T06:34:05.739Z",
+      "notes": "",
+      "position": {
+        "lat": 30.35391637229704,
+        "lng": 40.536836054294334
+      },
+      "id": 73930389
+    },
+    {
+      "cityName": "Ar Ruţbah",
+      "country": "Iraq",
+      "emoji": "🇮🇶",
+      "date": "2023-09-01T06:43:54.943Z",
+      "notes": "",
+      "position": {
+        "lat": 32.879587173066305,
+        "lng": 41.30630319913114
+      },
+      "id": 73930390
+    },
+    {
+      "cityName": "Susuz",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-01T07:18:24.226Z",
+      "notes": "",
+      "position": {
+        "lat": 40.815293422420936,
+        "lng": 43.1982421875
+      },
+      "id": 73930391
     }
   ]
 }
