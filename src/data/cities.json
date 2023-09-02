@@ -85,28 +85,16 @@
       "id": 73930393
     },
     {
-      "cityName": "Alcazar de San Juan",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-09-02T09:13:40.973Z",
+      "cityName": "Tabuk",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2023-09-02T10:51:43.597Z",
       "notes": "",
       "position": {
-        "lat": 39.33429742980725,
-        "lng": -3.2984859116296366
+        "lat": 28.981527906199734,
+        "lng": 38.75976562500001
       },
       "id": 73930394
-    },
-    {
-      "cityName": "Molinicos",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-09-02T09:13:50.926Z",
-      "notes": "",
-      "position": {
-        "lat": 38.496593518947584,
-        "lng": -2.2444346757598588
-      },
-      "id": 73930395
     }
   ]
 }
