@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useReducer } from "react";
-import getActions from "./CitiesActions";
+import useActions from "./CitiesActions";
 import citiesReducer from "./CitiesReducer";
 
 const CityContext = createContext();
@@ -17,14 +17,14 @@ function CityContextProvider({ children }) {
     initialState
   );
 
-  const { getCurrentCity, createCity, deleteCity, fetchCities } = getActions(
+  const { getCurrentCity, createCity, deleteCity, fetchCities } = useActions(
     dispatch,
     cities
   );
 
   useEffect(() => {
     fetchCities();
-  }, []);
+  }, [fetchCities]);
 
   return (
     <CityContext.Provider

@@ -49,18 +49,6 @@
       "id": 73930389
     },
     {
-      "cityName": "Ar Ruţbah",
-      "country": "Iraq",
-      "emoji": "🇮🇶",
-      "date": "2023-09-01T06:43:54.943Z",
-      "notes": "",
-      "position": {
-        "lat": 32.879587173066305,
-        "lng": 41.30630319913114
-      },
-      "id": 73930390
-    },
-    {
       "cityName": "Susuz",
       "country": "Turkiye",
       "emoji": "🇹🇷",
@@ -71,6 +59,42 @@
         "lng": 43.1982421875
       },
       "id": 73930391
+    },
+    {
+      "cityName": "Ash Shamli Governorate",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2023-09-02T09:12:02.607Z",
+      "notes": "",
+      "position": {
+        "lat": 27.371767300523047,
+        "lng": 40.207649177826795
+      },
+      "id": 73930392
+    },
+    {
+      "cityName": "Martuni",
+      "country": "Armenia",
+      "emoji": "🇦🇲",
+      "date": "2023-09-02T09:12:12.589Z",
+      "notes": "",
+      "position": {
+        "lat": 40.195659093364654,
+        "lng": 45.19486950885958
+      },
+      "id": 73930393
+    },
+    {
+      "cityName": "Tabuk",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2023-09-02T10:51:43.597Z",
+      "notes": "",
+      "position": {
+        "lat": 28.981527906199734,
+        "lng": 38.75976562500001
+      },
+      "id": 73930394
     }
   ]
 }
